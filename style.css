@@ -1,0 +1,77 @@
+header {
+    text-align: center;
+    width: auto;
+    background-color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: goldenrod;
+}
+.word {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.letter {
+    padding: 15px;
+}
+#guess-input {
+    background-color: white;
+    width: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: solid 1px black;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+}
+#submit {
+    text-align: center;
+    background-color: black;
+    width: 150px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod;
+    cursor: pointer;
+}
+.guessed {
+    margin-top: 100px;
+}
+.incorrect {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.guessed {
+    text-align: center;
+    width: auto;
+    background-color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+#win-message {
+    display: none;
+}
+#lose-message {
+    display: none;
+}
+#try-again-message {
+    display: none;
+    cursor: pointer;
+}
+#start {
+    cursor: pointer;
+    color: black;
+    text-align: center;
+}
+#word-progress {
+    letter-spacing: 10px;
+}
+h5 {
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
