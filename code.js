@@ -94,7 +94,6 @@ let submit = document.getElementById("submit");
 getLetter = () => {
   let letter = document.getElementById("guess-input").value;
   if (letter === null) {
-    break;
     alert("guess one letter");
   } else if (letter.length !== 1) {
     alert("Plsease enter one letter at a time.");
@@ -103,7 +102,8 @@ getLetter = () => {
     updateDisplay();
     checkWin();
     checkLoss();
-  }
+  };
+  document.getElementById("guess-input").value = '';
 };
 
 submit.addEventListener("click", getLetter);

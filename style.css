@@ -3,6 +3,7 @@ header {
     width: auto;
     background-color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
 }
 body {
     background-color: goldenrod;
@@ -19,7 +20,7 @@ body {
 #guess-input {
     background-color: white;
     width: 30px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
     border-radius: 5px;
     border: solid 1px black;
     height: 40px;
@@ -35,9 +36,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: goldenrod;
     cursor: pointer;
+    border-radius: 4px;
+}
+#submit h1 {
+    margin: 10px;
 }
 .guessed {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .incorrect {
     display: flex;
@@ -69,9 +74,15 @@ body {
 }
 #word-progress {
     letter-spacing: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
 }
 h5 {
     text-align: center;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+}
+#guessed-letters {
+    color: white;
 }
